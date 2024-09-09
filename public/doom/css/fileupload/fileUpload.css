@@ -1,0 +1,41 @@
+.upload-new {
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: block;
+	background-color: #f5f5f5;
+	margin-top: 10px;
+	float: left;
+}
+.upload-btn {
+	position: relative;
+}
+.upload-file {
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+	opacity: 0;
+}
+.upload-new:hover {
+	background-color: #e5e5e5;
+}
+
+.upload-remove {
+	display: none;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #d84a38;
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+.upload-remove:hover {
+	background-color: #c63927;
+}
